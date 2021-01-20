@@ -255,7 +255,7 @@ td {
 /* Wrapper */
 .wrapper {
   /* width:960px; */
-  width:1360px;
+  width:960px;
 }
 
 
@@ -367,7 +367,7 @@ a.buttons:hover {
 
 section {
   /* width:650px; */
-  width:1300px;
+  width:650px;
   float:right;
   padding-bottom:50px;
 }

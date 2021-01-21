@@ -81,8 +81,24 @@ Implementation of expectation-maximization (EM) algorithm </h3>
   </p> 
  $$\begin{align} 
     L(\theta,\phi;\textbf{V}) = p(\textbf{V}|\theta,\phi) = \sum_{k,h}p(\textbf{V}, \textbf{K}, \textbf{H}|\theta, \phi).
- \end{align}$$
-
+   \end{align}$$
+<p>Since \(\textbf{K}\) and \(\textbf{H}\) are independent, we can divide above equation into two likelihood functions as follows: 
+  </p>
+ $$\begin{align}
+L_k(\theta;\textbf{V})&=\sum_{k}p(\textbf{V},\textbf{K}|\textbf{H}, \theta)p(\textbf{H}), \text{for fixed } \phi, \\
+L_h(\phi;\textbf{V})&=\sum_{h}p(\textbf{V},\textbf{H}|\textbf{K}, \phi)p(\textbf{K}), \text{for fixed } \theta .
+\end{align}$$
+<p>The EM algorithm attempts to maximize the marginal likelihood using an iteration in which two steps are repeated. In the E-step, the previous parameter values \(\theta^{t-1}\) and \(\phi^{t-1}\) are used to determine the expectation of log-likelihood for the new \(\theta\) and \(\phi\) values, as follows:
+</p>
+$$\begin{align}
+Q(\theta|\theta^{t-1}) = \mathbb{E}_{\textbf{K}|\textbf{V},\textbf{H}^{t-1},\theta^{t-1}}\text{log}L_k(\theta;\textbf{V}),
+\end{align}$$
+$$\begin{align}
+Q(\phi|\phi^{t-1}) = \mathbb{E}_{\textbf{H}|\textbf{V},\textbf{K}^{t-1},\phi^{t-1}}\text{log}L_h(\phi;\textbf{V}).
+  \end{align}$$
+  
+  
+  
 <h3>
 Introduction</h3>
 <p>

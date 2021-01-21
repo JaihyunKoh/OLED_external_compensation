@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 2730 1569" style="enable-background:new 0 0 2730 1569;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFF2FF;}
+	.st1{fill:#E9F3FF;}
+	.st2{fill:#E6E6E6;}
+	.st3{fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:60px;}
+	.st6{font-size:45px;}
+	.st7{font-size:50px;}
+	.st8{fill:#2E3192;}
+	.st9{fill:#FFFFFF;}
+	.st10{font-size:44px;}
+	.st11{font-family:'Arial-ItalicMT';}
+	.st12{font-size:42px;}
+	.st13{font-size:38px;}
+	.st14{fill:none;stroke:#0000FF;stroke-width:5;stroke-miterlimit:10;}
+	.st15{fill:#0000FF;}
+	.st16{fill:none;stroke:#E60012;stroke-width:5;stroke-miterlimit:10;}
+	.st17{fill:#E60012;}
+	.st18{font-size:33px;}
+	.st19{font-size:35px;}
+	.st20{font-family:'Arial-BoldMT';}
+	.st21{font-size:51px;}
+	.st22{fill:#FBAE17;}
+	.st23{fill:#D9E021;}
+	.st24{font-size:57px;}
+	.st25{font-size:55px;}
+	.st26{clip-path:url(#SVGID_2_);fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
+	.st27{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.979,9.979;}
+	.st28{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
+	.st29{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.966,9.966;}
+	.st30{clip-path:url(#SVGID_4_);fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
+	.st31{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.922,9.922;}
+</style>
+<rect x="1394.68" y="509" class="st0" width="1335.32" height="981.5"/>
+<rect x="1393" class="st1" width="1337" height="509"/>
+<rect class="st1" width="1417.4" height="1030"/>
+<rect x="0.02" y="1027.52" class="st0" width="2729.98" height="541.48"/>
+<rect x="504.93" y="16.62" class="st2" width="390.07" height="296.38"/>
+<rect x="504.93" y="16.62" class="st3" width="390.07" height="296.38"/>
+<rect x="503.93" y="1080.62" class="st2" width="390.07" height="296.38"/>
+<rect x="503.93" y="1080.62" class="st3" width="390.07" height="296.38"/>
+<rect x="976.93" y="14.62" class="st2" width="390.07" height="296.38"/>
+<rect x="976.93" y="14.62" class="st3" width="390.07" height="296.38"/>
+<text transform="matrix(1 0 0 1 546.7813 148.7676)" class="st4 st5">Gray-to-V</text>
+<text transform="matrix(1 0 0 1 806.8203 148.7676)" class="st4 st6">gs</text>
+<text transform="matrix(1 0 0 1 574.1602 208.7676)" class="st4 st7">(InGamma)</text>
+<text transform="matrix(1 0 0 1 549.2783 1242.7676)" class="st4 st5">V</text>
+<text transform="matrix(1 0 0 1 589.2979 1242.7676)" class="st4 st6">gs-</text>
+<text transform="matrix(1 0 0 1 651.8105 1242.7676)" class="st4 st5">to-Gray</text>
+<text transform="matrix(1 0 0 1 851.8496 1242.7676)" class="st4 st6"> </text>
+<text transform="matrix(1 0 0 1 1055.6924 175.7676)" class="st4 st5">V</text>
+<text transform="matrix(1 0 0 1 1095.7119 175.7676)" class="st4 st6">gs</text>
+<text transform="matrix(1 0 0 1 1143.2388 175.7676)" class="st4 st5">-to-I</text>
+<text transform="matrix(1 0 0 1 1249.9087 175.7676)" class="st4 st6">ds</text>
+<rect x="569.93" y="376.62" class="st8" width="258.07" height="118.38"/>
+<rect x="569.93" y="376.62" class="st3" width="258.07" height="118.38"/>
+<text transform="matrix(1 0 0 1 579.981 426.0366)" class="st9 st4 st10">Gray-to-Vgs</text>
+<text transform="matrix(1 0 0 1 657.4209 478.8369)" class="st9 st4 st10">LUT</text>
+<text transform="matrix(1 0 0 1 272.0571 97.8945)" class="st4 st6">source </text>
+<text transform="matrix(1 0 0 1 278.312 151.8945)" class="st4 st6">image</text>
+<text transform="matrix(1 0 0 1 1952.4629 1307.3203)" class="st11 st12">V</text>
+<text transform="matrix(1 0 0 1 1980.4775 1307.3203)" class="st4 st12">gs (output of Gray-to-Vgs block)</text>
+<text transform="matrix(1 0 0 1 841.7944 1512.8877)" class="st4 st13">inverse[Gray to Vgs LUT]</text>
+<text transform="matrix(1 0 0 1 2442.2949 70.8945)" class="st4 st6">simulated</text>
+<text transform="matrix(1 0 0 1 2434.7803 124.8945)" class="st4 st6">brightness</text>
+<text transform="matrix(1 0 0 1 2424.5195 234.8745)" class="st4 st6">compensated</text>
+<text transform="matrix(1 0 0 1 2455.7949 288.8745)" class="st4 st6">brightness</text>
+<line class="st14" x1="423" y1="112.5" x2="476.02" y2="112.5"/>
+<polygon class="st15" points="502.5,112.5 465.19,127.75 474.04,112.5 465.19,97.26 "/>
+<line class="st14" x1="2315" y1="105.5" x2="2368.02" y2="105.5"/>
+<polygon class="st15" points="2394.5,105.5 2357.19,120.75 2366.04,105.5 2357.19,90.26 "/>
+<line class="st14" x1="1450" y1="466.5" x2="1553.02" y2="466.5"/>
+<polygon class="st15" points="1579.5,466.5 1542.19,481.75 1551.04,466.5 1542.19,451.26 "/>
+<line class="st16" x1="1452" y1="559.5" x2="1555.02" y2="559.5"/>
+<polygon class="st17" points="1581.5,559.5 1544.19,574.75 1553.04,559.5 1544.19,544.26 "/>
+<line class="st14" x1="895" y1="105.5" x2="948.02" y2="105.5"/>
+<polygon class="st15" points="974.5,105.5 937.19,120.75 946.04,105.5 937.19,90.26 "/>
+<rect x="1448.93" y="14.62" class="st2" width="390.07" height="296.38"/>
+<rect x="1448.93" y="14.62" class="st3" width="390.07" height="296.38"/>
+<text transform="matrix(1 0 0 1 1571.4658 146.7676)" class="st4 st5">I</text>
+<text transform="matrix(1 0 0 1 1588.1357 146.7676)" class="st4 st6">ds</text>
+<text transform="matrix(1 0 0 1 1635.6621 146.7676)" class="st4 st5">-to- </text>
+<text transform="matrix(1 0 0 1 1501.8018 218.7676)" class="st4 st5">Luminance</text>
+<rect x="1924.93" y="14.62" class="st2" width="390.07" height="296.38"/>
+<rect x="1924.93" y="14.62" class="st3" width="390.07" height="296.38"/>
+<text transform="matrix(1 0 0 1 1956.1953 146.7676)" class="st4 st5">Lum-to-Gray</text>
+<text transform="matrix(1 0 0 1 1978.7148 206.7676)" class="st4 st7">(OutGamma)</text>
+<line class="st14" x1="1367" y1="105.5" x2="1420.02" y2="105.5"/>
+<polygon class="st15" points="1446.5,105.5 1409.19,120.75 1418.04,105.5 1409.19,90.26 "/>
+<line class="st14" x1="1838.5" y1="105.5" x2="1897.02" y2="105.5"/>
+<polygon class="st15" points="1923.5,105.5 1886.19,120.75 1895.04,105.5 1886.19,90.26 "/>
+<line class="st16" x1="1844" y1="851.5" x2="1944.02" y2="851.5"/>
+<polygon class="st17" points="1970.5,851.5 1933.19,866.75 1942.04,851.5 1933.19,836.26 "/>
+<line class="st16" x1="1943.5" y1="1178.5" x2="1870.48" y2="1178.5"/>
+<polygon class="st17" points="1844,1178.5 1881.31,1163.26 1872.46,1178.5 1881.31,1193.74 "/>
+<line class="st16" x1="1451.5" y1="1228.5" x2="1341.98" y2="1228.5"/>
+<polygon class="st17" points="1315.5,1228.5 1352.81,1213.26 1343.96,1228.5 1352.81,1243.74 "/>
+<line class="st16" x1="1020.5" y1="1228.5" x2="925.48" y2="1228.5"/>
+<polygon class="st17" points="899,1228.5 936.31,1213.26 927.46,1228.5 936.31,1243.74 "/>
+<line class="st16" x1="1943.5" y1="1297.5" x2="1872.48" y2="1297.5"/>
+<polygon class="st17" points="1846,1297.5 1883.31,1282.26 1874.46,1297.5 1883.31,1312.74 "/>
+<line class="st16" x1="140.5" y1="1225.5" x2="54" y2="1225.5"/>
+<line class="st16" x1="54.5" y1="229.5" x2="54.5" y2="1226.5"/>
+<line class="st14" x1="698.5" y1="376.5" x2="698.5" y2="339.48"/>
+<polygon class="st15" points="698.5,313 713.74,350.31 698.5,341.46 683.26,350.31 "/>
+<line class="st16" x1="703.5" y1="1436.5" x2="703.5" y2="1403.48"/>
+<polygon class="st17" points="703.5,1377 718.74,1414.31 703.5,1405.46 688.26,1414.31 "/>
+<line class="st14" x1="1172.5" y1="374.5" x2="1172.5" y2="337.48"/>
+<polygon class="st15" points="1172.5,311 1187.75,348.31 1172.5,339.46 1157.26,348.31 "/>
+<line class="st14" x1="1170.5" y1="791.5" x2="1170.5" y2="707.98"/>
+<polygon class="st15" points="1170.5,681.5 1185.75,718.81 1170.5,709.96 1155.26,718.81 "/>
+<line class="st16" x1="2170.5" y1="1002" x2="2170.5" y2="1099.02"/>
+<polygon class="st17" points="2170.5,1125.5 2155.25,1088.19 2170.5,1097.04 2185.74,1088.19 "/>
+<line class="st14" x1="1170.5" y1="559.5" x2="1170.5" y2="522.48"/>
+<polygon class="st15" points="1170.5,496 1185.75,533.31 1170.5,524.46 1155.26,533.31 "/>
+<rect x="1041.93" y="376.62" class="st8" width="258.07" height="118.38"/>
+<rect x="1041.93" y="376.62" class="st3" width="258.07" height="118.38"/>
+<text transform="matrix(1 0 0 1 1075.8125 426.0366)" class="st9 st4 st10"> V</text>
+<text transform="matrix(1 0 0 1 1117.3848 426.0366)" class="st9 st4 st18">gs</text>
+<text transform="matrix(1 0 0 1 1152.2378 426.0366)" class="st9 st4 st10">-to-I</text>
+<text transform="matrix(1 0 0 1 1230.4624 426.0366)" class="st9 st4 st18">ds</text>
+<text transform="matrix(1 0 0 1 1129.3999 478.8369)" class="st9 st4 st10">LUT</text>
+<rect x="1043.93" y="560.62" class="st8" width="258.07" height="118.38"/>
+<rect x="1043.93" y="560.62" class="st3" width="258.07" height="118.38"/>
+<text transform="matrix(1 0 0 1 1132.3999 607.0366)" class="st9 st4 st10">LUT</text>
+<text transform="matrix(1 0 0 1 1096.54 659.8364)" class="st9 st4 st10">selector</text>
+<text transform="matrix(1 0 0 1 249.2109 844.8945)" class="st4 st6">random </text>
+<text transform="matrix(1 0 0 1 276.7061 898.8945)" class="st4 st6">seed</text>
+<text transform="matrix(1 0 0 1 1600.4258 474.9043)" class="st4 st6">simulation flow</text>
+<text transform="matrix(1 0 0 1 1600.6504 569.8994)" class="st4 st6">compensation flow</text>
+<text transform="matrix(1 0 0 1 1877.2207 778.8794)" class="st11 st6">V</text>
+<text transform="matrix(1 0 0 1 1907.2363 778.8794)" class="st4 st6">s </text>
+<text transform="matrix(1 0 0 1 1858.7842 820.8945)" class="st4 st19">(1ms)</text>
+<text transform="matrix(1 0 0 1 1028.9248 840.3203)" class="st4 st12">mobiliy and </text>
+<text transform="matrix(1 0 0 1 1253.0371 840.3203)" class="st11 st12">V</text>
+<text transform="matrix(1 0 0 1 1281.0513 840.3203)" class="st4 st12">th</text>
+<text transform="matrix(1 0 0 1 996.249 890.7207)" class="st4 st12">related parameters</text>
+<text transform="matrix(1 0 0 1 2176.7002 580.0313)" class="st20 st21">Compensation Blocks</text>
+<text transform="matrix(1 0 0 1 2269.9277 467.0151)" class="st20 st21">Simulation Blocks</text>
+<text transform="matrix(1 0 0 1 1962.3945 1188.3203)" class="st4 st12">estimated </text>
+<text transform="matrix(1 0 0 1 2156.1396 1188.3203)" class="st11 st12">k</text>
+<text transform="matrix(1 0 0 1 2177.1396 1188.3203)" class="st4 st12"> and </text>
+<text transform="matrix(1 0 0 1 2270.5479 1188.3203)" class="st11 st12">V</text>
+<text transform="matrix(1 0 0 1 2298.5625 1188.3203)" class="st4 st12">th</text>
+<text transform="matrix(1 0 0 1 1049.9023 1223.3066)" class="st4 st12">compensated</text>
+<text transform="matrix(1 0 0 1 1139.7822 1273.7061)" class="st11 st12">V</text>
+<text transform="matrix(1 0 0 1 1167.7964 1273.7061)" class="st4 st12">gs</text>
+<line class="st14" x1="423" y1="853.5" x2="476.02" y2="853.5"/>
+<polygon class="st15" points="502.5,853.5 465.19,868.75 474.04,853.5 465.19,838.26 "/>
+<line class="st16" x1="54.5" y1="229.5" x2="476.02" y2="229.5"/>
+<polygon class="st17" points="502.5,229.5 465.19,244.75 474.04,229.5 465.19,214.26 "/>
+<line class="st14" x1="895" y1="853.5" x2="948.02" y2="853.5"/>
+<polygon class="st15" points="974.5,853.5 937.19,868.75 946.04,853.5 937.19,838.26 "/>
+<line class="st16" x1="1372" y1="851.5" x2="1425.02" y2="851.5"/>
+<polygon class="st17" points="1451.5,851.5 1414.19,866.75 1423.04,851.5 1414.19,836.26 "/>
+<rect x="503.93" y="703.62" class="st22" width="390.07" height="296.38"/>
+<rect x="503.93" y="703.62" class="st3" width="390.07" height="296.38"/>
+<rect x="1453.93" y="705.62" class="st23" width="390.07" height="296.38"/>
+<rect x="1453.93" y="705.62" class="st3" width="390.07" height="296.38"/>
+<rect x="1972.93" y="703.62" class="st23" width="390.07" height="296.38"/>
+<rect x="1972.93" y="703.62" class="st3" width="390.07" height="296.38"/>
+<rect x="1453.93" y="1080.62" class="st23" width="390.07" height="296.38"/>
+<rect x="1453.93" y="1080.62" class="st3" width="390.07" height="296.38"/>
+<text transform="matrix(1 0 0 1 513.2583 830.1924)" class="st4 st24">Non-uniformity </text>
+<text transform="matrix(1 0 0 1 513.2012 898.5928)" class="st4 st24">map generator</text>
+<text transform="matrix(1 0 0 1 1613.5547 825.7676)" class="st4 st5">Vs</text>
+<text transform="matrix(1 0 0 1 1526.8545 897.7676)" class="st4 st5">simulator</text>
+<text transform="matrix(1 0 0 1 2065.5938 871.7871)" class="st4 st5">RCTCN</text>
+<text transform="matrix(1 0 0 1 1601.1777 1214.4766)" class="st4 st25">Vgs</text>
+<text transform="matrix(1 0 0 1 1471.2129 1280.4766)" class="st4 st25">Compensation</text>
+<rect x="571.93" y="1436.62" class="st8" width="258.07" height="118.38"/>
+<rect x="571.93" y="1436.62" class="st3" width="258.07" height="118.38"/>
+<text transform="matrix(1 0 0 1 584.981 1485.0361)" class="st9 st4 st10">Vgs-to-Gray</text>
+<text transform="matrix(1 0 0 1 662.4209 1537.8369)" class="st9 st4 st10">LUT</text>
+<line class="st16" x1="502" y1="1228.5" x2="444.48" y2="1228.5"/>
+<polygon class="st17" points="418,1228.5 455.31,1213.26 446.46,1228.5 455.31,1243.74 "/>
+<line class="st16" x1="893.5" y1="229.5" x2="948.02" y2="229.5"/>
+<polygon class="st17" points="974.5,229.5 937.19,244.75 946.04,229.5 937.19,214.26 "/>
+<line class="st16" x1="1367" y1="229.5" x2="1421.52" y2="229.5"/>
+<polygon class="st17" points="1448,229.5 1410.69,244.75 1419.54,229.5 1410.69,214.26 "/>
+<line class="st16" x1="1838.5" y1="229.5" x2="1896.52" y2="229.5"/>
+<polygon class="st17" points="1923,229.5 1885.69,244.75 1894.54,229.5 1885.69,214.26 "/>
+<line class="st16" x1="2315.5" y1="229.5" x2="2368.02" y2="229.5"/>
+<polygon class="st17" points="2394.5,229.5 2357.19,244.75 2366.04,229.5 2357.19,214.26 "/>
+<text transform="matrix(1 0 0 1 168.168 1215.3203)" class="st4 st12">compensated</text>
+<text transform="matrix(1 0 0 1 237.0479 1265.7207)" class="st4 st12">image</text>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="2730" height="1569"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<line class="st26" x1="0" y1="1028" x2="5" y2="1028"/>
+</g>
+<line class="st27" x1="14.98" y1="1028" x2="1407.01" y2="1028"/>
+<line class="st28" x1="1412" y1="1028" x2="1417" y2="1028"/>
+<line class="st28" x1="1416" y1="509.5" x2="1421" y2="509.5"/>
+<line class="st29" x1="1430.97" y1="509.5" x2="2721.52" y2="509.5"/>
+<g>
+	<defs>
+		<rect id="SVGID_3_" width="2730" height="1569"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+	<line class="st30" x1="2726.5" y1="509.5" x2="2731.5" y2="509.5"/>
+</g>
+<line class="st28" x1="1417.5" y1="1028.5" x2="1417.5" y2="1023.5"/>
+<line class="st31" x1="1417.5" y1="1013.58" x2="1417.5" y2="522.46"/>
+<line class="st28" x1="1417.5" y1="517.5" x2="1417.5" y2="512.5"/>
+</svg>

@@ -27,14 +27,13 @@
 	.st21{font-size:51px;}
 	.st22{fill:#FBAE17;}
 	.st23{fill:#D9E021;}
-	.st24{font-size:57px;}
-	.st25{font-size:55px;}
-	.st26{clip-path:url(#SVGID_2_);fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
-	.st27{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.979,9.979;}
-	.st28{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
-	.st29{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.966,9.966;}
-	.st30{clip-path:url(#SVGID_4_);fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
-	.st31{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.922,9.922;}
+	.st24{font-size:55px;}
+	.st25{clip-path:url(#SVGID_2_);fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
+	.st26{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.979,9.979;}
+	.st27{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
+	.st28{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.966,9.966;}
+	.st29{clip-path:url(#SVGID_4_);fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;}
+	.st30{fill:none;stroke:#231815;stroke-width:3;stroke-miterlimit:10;stroke-dasharray:9.922,9.922;}
 </style>
 <rect x="1394.68" y="509" class="st0" width="1335.32" height="981.5"/>
 <rect x="1393" class="st1" width="1337" height="509"/>
@@ -56,7 +55,7 @@
 <text transform="matrix(1 0 0 1 1055.6924 175.7676)" class="st4 st5">V</text>
 <text transform="matrix(1 0 0 1 1095.7119 175.7676)" class="st4 st6">gs</text>
 <text transform="matrix(1 0 0 1 1143.2388 175.7676)" class="st4 st5">-to-I</text>
-<text transform="matrix(1 0 0 1 1249.9087 175.7676)" class="st4 st6">ds</text>
+<text transform="matrix(1 0 0 1 1254.9087 175.7676)" class="st4 st6">ds</text>
 <rect x="569.93" y="376.62" class="st8" width="258.07" height="118.38"/>
 <rect x="569.93" y="376.62" class="st3" width="258.07" height="118.38"/>
 <text transform="matrix(1 0 0 1 579.981 426.0366)" class="st9 st4 st10">Gray-to-Vgs</text>
@@ -171,8 +170,8 @@
 <text transform="matrix(1 0 0 1 1613.5547 825.7676)" class="st4 st5">Vs</text>
 <text transform="matrix(1 0 0 1 1526.8545 897.7676)" class="st4 st5">simulator</text>
 <text transform="matrix(1 0 0 1 2065.5938 871.7871)" class="st4 st5">RCTCN</text>
-<text transform="matrix(1 0 0 1 1601.1777 1214.4766)" class="st4 st25">Vgs</text>
-<text transform="matrix(1 0 0 1 1471.2129 1280.4766)" class="st4 st25">Compensation</text>
+<text transform="matrix(1 0 0 1 1601.1777 1214.4766)" class="st4 st24">Vgs</text>
+<text transform="matrix(1 0 0 1 1471.2129 1280.4766)" class="st4 st24">Compensation</text>
 <rect x="571.93" y="1436.62" class="st8" width="258.07" height="118.38"/>
 <rect x="571.93" y="1436.62" class="st3" width="258.07" height="118.38"/>
 <text transform="matrix(1 0 0 1 584.981 1485.0361)" class="st9 st4 st10">Vgs-to-Gray</text>
@@ -196,12 +195,12 @@
 	<clipPath id="SVGID_2_">
 		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
-	<line class="st26" x1="0" y1="1028" x2="5" y2="1028"/>
+	<line class="st25" x1="0" y1="1028" x2="5" y2="1028"/>
 </g>
-<line class="st27" x1="14.98" y1="1028" x2="1407.01" y2="1028"/>
-<line class="st28" x1="1412" y1="1028" x2="1417" y2="1028"/>
-<line class="st28" x1="1416" y1="509.5" x2="1421" y2="509.5"/>
-<line class="st29" x1="1430.97" y1="509.5" x2="2721.52" y2="509.5"/>
+<line class="st26" x1="14.98" y1="1028" x2="1407.01" y2="1028"/>
+<line class="st27" x1="1412" y1="1028" x2="1417" y2="1028"/>
+<line class="st27" x1="1416" y1="509.5" x2="1421" y2="509.5"/>
+<line class="st28" x1="1430.97" y1="509.5" x2="2721.52" y2="509.5"/>
 <g>
 	<defs>
 		<rect id="SVGID_3_" width="2730" height="1569"/>
@@ -209,9 +208,9 @@
 	<clipPath id="SVGID_4_">
 		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
 	</clipPath>
-	<line class="st30" x1="2726.5" y1="509.5" x2="2731.5" y2="509.5"/>
+	<line class="st29" x1="2726.5" y1="509.5" x2="2731.5" y2="509.5"/>
 </g>
-<line class="st28" x1="1417.5" y1="1028.5" x2="1417.5" y2="1023.5"/>
-<line class="st31" x1="1417.5" y1="1013.58" x2="1417.5" y2="522.46"/>
-<line class="st28" x1="1417.5" y1="517.5" x2="1417.5" y2="512.5"/>
+<line class="st27" x1="1417.5" y1="1028.5" x2="1417.5" y2="1023.5"/>
+<line class="st30" x1="1417.5" y1="1013.58" x2="1417.5" y2="522.46"/>
+<line class="st27" x1="1417.5" y1="517.5" x2="1417.5" y2="512.5"/>
 </svg>

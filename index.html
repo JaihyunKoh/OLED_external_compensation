@@ -105,8 +105,8 @@ $$\begin{align}
 Q(\phi|\phi^{t-1}) = \Bbb{E}_{\mathsf{H}|\mathsf{V},\mathsf{K}^{t-1},\phi^{t-1}}\text{log}L_h(\phi;\mathsf{V}).
   \end{align}$$
 
-<p>Since \(\text{log}[p(\textbf{H})]\) and \(\text{log}[p(\textbf{K})]\) are log-probability density functions established by \(\phi^{t-1}\) and \(\theta^{t-1}\) during the previous iteration, 
-  they do not affect optimization of the \(Q\)-functions. Thus, the main purpose of the E-step is to infer \(p(\textbf{K},\textbf{V}|\textbf{H}^{t-1},\theta^{t-1})\) and \(p(\textbf{H},\textbf{V}|\textbf{K}^{t-1},\phi^{t-1})\). 
+<p>Since \(\text{log}[p(\mathsf{H})]\) and \(\text{log}[p(\mathsf{K})]\) are log-probability density functions established by \(\phi^{t-1}\) and \(\theta^{t-1}\) during the previous iteration, 
+  they do not affect optimization of the \(Q\)-functions. Thus, the main purpose of the E-step is to infer \(p(\mathsf{K},\mathsf{V}|\mathsf{H}^{t-1},\theta^{t-1})\) and \(p(\mathsf{H},\mathsf{V}|\mathsf{K}^{t-1},\phi^{t-1})\). 
   In the M-step, new values of \(\theta^t\) and \(\phi^t\) are obtained which maximize the expectation \(Q\),
   </p>
   
@@ -151,9 +151,43 @@ This allows the lookup table to include realistic fluctuations in the relationsh
 <figcaption><strong>Figure 2:</strong> Examples of synthesized maps of non-uniform brightness which simulate the effects found in OLED displays. From left to right: large-scale non-uniformity, short-scale non-uniformity in the vertical and horizontal directions, and the resulting combined non-uniformity map of (a) \(k\), and (b) \(V_{\text{th}}\).  </figcaption>
 </figure>
   
-    
+<h3>
+Parameter tuning</h3>
 
+  <p>Several of the hyper-parameters for our scheme have to be found experimentally. 
+    First, we considered the time interval used in sampling the \(V_{\text{s}}\) curve. 
+    We sampled 10 values of \(V_{\text{s}}\) using 7 different sampling times (\(\text{T}_{\text{sample}}\)), from 0.2ms to 1.4ms and used the resulting samples to train the RCTCN. 
+    Figure 3 (a) shows that the error decreases from 0.4ms to 1.0ms and then flattens out. 
+    We therefore consider 1.0ms to be the minimum acceptable sampling time.
+    The number \(N\) of \(V_{\text{s}}\) samples has significant implications for the speed of the ADC required in the external compensation circuit. 
+    We trained the RCTCN with different numbers of samples between 4 and 14 taken over a period of 1.0ms, and report the error-rate in Figure 3 (b). 
+    The lowest error-rate is associated with 10 samples, but the error-rate is not much different with 6 samples, which would yield a more cost-effective implementation.
+    We also studied the effect of the number of iteration \(T\) on the recurrent learning process. We trained RCTCN over 2 to 20 iterations, for 10 samples taken over 1.0ms.
+    As shown in Figure 3 (c), the error-rate steadily decreases until 12 iterations, then it flattens out, so we use 12 iterations for training.
+    Finally, we also need to consider the number of iterations required at inference time, which has a greater impact on hardware requirements than the number of iterations at training time.
+    We experimented with between 1 and 10 iterations. Happily, the results shown in Figure 3 (d) suggest that only 4 iterations are needed at inference time.
+    We attribute this to the way in which the networks are forced to minimize the losses at the early iteration in our recurrent training setting.</p>
   
+<figure id="Figure_3">
+<img src="./figures/figure3.svg"
+ alt="Figure 3" id="Figure_3_image">
+<figcaption><strong>Figure 3:</strong> Mean absolute percentage error (MAPE) of estimated values of current gain \(k\) and threshold voltage \(V_{\text{th}}\) obtained during tuning of: (a) sampling time, (b) number of samples, (c) number of iterations during training and (d) during inference.  </figcaption>
+</figure>
+  
+<h3>
+Additioanl results</h3>
+  
+<figure id="Figure_4">
+<img src="./figures/figure4.svg"
+ alt="Figure 4" id="Figure_4_image">
+<figcaption><strong>Figure 4:</strong> Visual results of display compensation for non-uniform OLED brightness, using single grayscale images. </figcaption>
+</figure>
+  
+<figure id="Figure_5">
+<img src="./figures/figure5.svg"
+ alt="Figure 5" id="Figure_5_image">
+<figcaption><strong>Figure 5:</strong> Visual results of display compensation for non-uniform OLED brightness, using photographic images.  </figcaption>
+</figure>
   
   
 <!--  

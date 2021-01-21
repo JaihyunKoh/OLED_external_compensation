@@ -85,7 +85,7 @@ Implementation of expectation-maximization (EM) algorithm </h3>
   
 <p>Since \(\mathsf{K}\) and \(\mathsf{H}\) are independent, we can divide above equation into two likelihood functions as follows: 
   </p>
-  
+<!-- 
  $$\begin{align}
 L_k(\theta;\mathsf{V})&=\sum_{k}p(\mathsf{V},\mathsf{K}|\mathsf{H}, \theta)p(\mathsf{H}), \text{for fixed } \phi, \\
 L_h(\phi;\mathsf{V})&=\sum_{h}p(\mathsf{V},\mathsf{H}|\mathsf{K}, \phi)p(\mathsf{K}), \text{for fixed } \theta .
@@ -118,7 +118,9 @@ Visual Simulation</h3>
   <li><strong>Visual simulation flow</strong>
 <p>
 Figure 1 shows the flow of data in the simulation and compensation processes. Simulation begins with the generation of maps of non-uniformity of $k$ and $V_{\text{th}}$. The simulator receives an RGB image, and then linearlizes the gamma to obtain luminance. This is normalized to the maximum luminance and used to generate $V_{\text{gs}}$. The purpose of the block labeled Vgs-to-Ids in Fig. \ref{fig:fig7} is to determine the current $I_{\text{ds}}$ that flows through a TFT from the applied voltage $V_{\text{gs}}$. Instead of using (\ref{eq:1}) to perform this conversion, the LUT selector block builds a look-up table from measured Vgs-to-Ids data on the $k$ and $V_{\text{th}}$ from non-uniformity maps. This allows the lookup table to include realistic fluctuations in the relationship between $V_{\text{gs}}$ and $I_{\text{ds}}$.
-</p>
+</p> 
+    
+-->
   
   
 <h3>

@@ -82,8 +82,10 @@ Implementation of expectation-maximization (EM) algorithm </h3>
  $$\begin{align} 
     L(\theta,\phi;\mathsf{V}) = p(\mathsf{V}|\theta,\phi) = \sum_{k,h}p(\mathsf{V}, \mathsf{K}, \mathsf{H}|\theta, \phi).
    \end{align}$$
+  
 <p>Since \(\mathsf{K}\) and \(\mathsf{H}\) are independent, we can divide above equation into two likelihood functions as follows: 
   </p>
+  
  $$\begin{align}
 L_k(\theta;\mathsf{V})&=\sum_{k}p(\mathsf{V},\mathsf{K}|\mathsf{H}, \theta)p(\mathsf{H}), \text{for fixed } \phi, \\
 L_h(\phi;\mathsf{V})&=\sum_{h}p(\mathsf{V},\mathsf{H}|\mathsf{K}, \phi)p(\mathsf{K}), \text{for fixed } \theta .
@@ -96,6 +98,19 @@ Q(\theta|\theta^{t-1}) = \Bbb{E}_{\mathsf{K}|\mathsf{V},\mathsf{H}^{t-1},\theta^
 $$\begin{align}
 Q(\phi|\phi^{t-1}) = \Bbb{E}_{\mathsf{H}|\mathsf{V},\mathsf{K}^{t-1},\phi^{t-1}}\text{log}L_h(\phi;\mathsf{V}).
   \end{align}$$
+
+<p>Since \(\text{log}[p(\textbf{H})]\) and \(\text{log}[p(\textbf{K})]\) are log-probability density functions established by \(\phi^{t-1}\) and \(\theta^{t-1}\) during the previous iteration, they do not affect optimization of the \(Q\)-functions. Thus, the main purpose of the E-step is to infer \(p(\textbf{K},\textbf{V}|\textbf{H}^{t-1},\theta^{t-1})\) and \(p(\textbf{H},\textbf{V}|\textbf{K}^{t-1},\phi^{t-1})\). In the M-step, new values of \(\theta^t\) and \(\phi^t\) are obtained which maximize the expectation \(Q\),
+  </p>
+  
+$$\begin{align} 
+\theta^{t} = \text{argmax}_{\theta}Q(\theta|\theta^{t-1}),
+\end{align}$$
+$$\begin{align} 
+\phi^{t} = \text{argmax}_{\phi}Q(\phi|\phi^{t-1}).
+\end{align}$$
+  
+<p>The implementation of this mutual EM algorithm that runs on the RCTCN iteratively optimizes these parameters.
+  </p>
   
   
   

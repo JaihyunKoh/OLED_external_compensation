@@ -221,10 +221,10 @@
 <text transform="matrix(1 0 0 1 656.4187 387.6081)" class="st5 st16"> = 10</text>
 <text transform="matrix(1 0 0 1 441.0841 62.038)" class="st18 st19">k</text>
 <text transform="matrix(1 0 0 1 189.9646 626.1417)" class="st5 st16">Iterations on training (</text>
-<text transform="matrix(1 0 0 1 373.7322 626.1417)" class="st18 st16">T</text>
+<text transform="matrix(1 0 0 1 373.7322 626.1417)" class="st5 st16">T</text>
 <text transform="matrix(1 0 0 1 385.3416 626.1417)" class="st5 st16">)</text>
 <text transform="matrix(1 0 0 1 686.0955 624.8083)" class="st5 st16">Iterations on inference (</text>
-<text transform="matrix(1 0 0 1 885.7097 624.8083)" class="st18 st16">T</text>
+<text transform="matrix(1 0 0 1 885.7097 624.8083)" class="st5 st16">T</text>
 <text transform="matrix(1 0 0 1 897.3181 624.8083)" class="st5 st16">)</text>
 <text transform="matrix(0 -1 1 0 24.0435 496.0414)" class="st5 st16">MAPE</text>
 <text transform="matrix(0 -1 1 0 528.0975 488.7045)" class="st5 st16">MAPE</text>
@@ -385,7 +385,7 @@
 <text transform="matrix(1 0 0 1 607.8511 45.202)" class="st18 st16">T</text>
 <text transform="matrix(1 0 0 1 619.46 45.202)" class="st5 st16"> = 12</text>
 <text transform="matrix(1 0 0 1 678.399 281.4071)" class="st5 st16">The number of samples (</text>
-<text transform="matrix(1 0 0 1 889.6031 281.4071)" class="st18 st16">N</text>
+<text transform="matrix(1 0 0 1 889.6031 281.4071)" class="st5 st16">N</text>
 <text transform="matrix(1 0 0 1 903.3209 281.4071)" class="st5 st16">)</text>
 <text transform="matrix(0 -1 1 0 528.2476 145.3051)" class="st5 st16">MAPE</text>
 <text transform="matrix(1 0 0 1 772.1949 313.2226)" class="st21 st22">(b)</text>
